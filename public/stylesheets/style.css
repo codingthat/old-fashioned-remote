@@ -1,0 +1,32 @@
+html, body, form {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.group_bar, .group_bar a, .remote_button {
+  box-sizing: border-box;
+  border: 1px solid white;
+  color: greenyellow;
+  background-color: black;
+}
+
+.group_bar {
+  width: 100%;
+  font-size: 6vh;
+  text-align: center;
+  display: inline-block;
+}
+
+.group_bar a {
+  text-decoration: none;
+  display: block;
+}
+
+.remote_button {
+  float: left;
+  width: calc(100%/3);
+  height: calc(100%/3);
+  font-size: 12vh;
+}

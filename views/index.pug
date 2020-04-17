@@ -1,0 +1,10 @@
+extends layout
+
+block header_injection
+  style(media='(orientation: portrait)') #{portrait_css}
+  style(media='(orientation: landscape)') #{landscape_css}
+
+block content
+  each group_name in group_names
+    span(class="group_bar")
+      a(href='/group/?group_name=' + group_name) #{group_name}

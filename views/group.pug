@@ -1,0 +1,9 @@
+extends layout
+
+block header_injection
+  script(type='text/javascript', src='/javascript/group-client.js')
+
+block content
+  form(action="/group?group_name=" + group_name, method="post")
+    each keystroke_name in keystroke_names
+      input(type="submit", name="keystroke_name", value=keystroke_name, class="remote_button")
