@@ -30,3 +30,7 @@ html, body, form {
   height: calc(100%/3);
   font-size: 12vh;
 }
+
+.loading { border: 15px dashed grey; }
+.success { border: 15px dashed greenyellow; }
+.error { border: 15px dashed red; }
