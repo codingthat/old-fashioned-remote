@@ -8,7 +8,7 @@ Visit https://www.toptal.com/blog and subscribe to our newsletter to read great 
 
 This runs a web server on your Linux-based laptop that can send pre-configured keystrokes to your browser windows (or untargeted).  By accessing it via your smartphone's web browser, you can conveniently control the volume and playback of your movie streaming and/or music listening:
 
-![The "remote control layout selection" screen and the "generic / music player" remote control.](https://github.com/codingthat/old-fashioned-remote/blob/master/README-screenshots.png?raw=true)
+![The "remote control layout selection" screen and the "generic / music player" remote control.](https://github.com/codingthat/old-fashioned-remote/blob/main/README-screenshots.png?raw=true)
 
 # TL;DR
 
