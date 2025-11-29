@@ -16,9 +16,10 @@ On your Linux-based computer:
 
 1. Install [xdotool](https://www.semicomplete.com/projects/xdotool/#installing) and [Node.js](https://nodejs.org/en/download/package-manager/).
 2. Clone this repo (`git clone https://github.com/codingthat/old-fashioned-remote.git`) and `cd` into the cloned directory.
-3. Run `npm start` (and keep it running)
-4. Open a music player, or have just one browser window open with `Netflix`, `YouTube`, or `Prime Video` in its title.
-5. Find out your computer's local IP address (e.g. by running `hostname -I | awk '{print $1}'`).
+3. Run `npm i` to install other project dependencies.
+4. Find out your computer's local IP address (e.g. by running `hostname -I | awk '{print $1}'`).
+5. Run `npm start` (and keep it running).
+6. Open a music player, or have just one browser window open with `Netflix`, `YouTube`, or `Prime Video` in its title.
 
 On your phone:
 
